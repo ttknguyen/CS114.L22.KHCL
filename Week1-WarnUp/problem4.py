@@ -1,3 +1,4 @@
+from decimal import *
+getcontext().prec = 6
 x = float(input())
-print( (x * (0.0703069) ))
-#0.070306900613801221
+print(Decimal( x * (0.453592/ (2.54*2.54)) ).normalize())
