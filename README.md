@@ -8,3 +8,8 @@
 ## Giảng viên:
 * PGS.TS. Lê Đình Duy - duyld@uit.edu.vn
 * Ths. Phạm Nguyễn Trường An - truonganpn@uit.edu.vn
+
+## Nội dung Repository:
+* Các thông tin cần thiết của môn học
+* Source các bài tập giảng viên đã giao
+* Source của đồ án cuối kỳ
