@@ -1,4 +1,7 @@
+s = [i for i in input().split()]
+
 def check(s, posT):
+    print(s)
     for i in range(posT):
         tmp = s[i]
         if ("lios" != tmp[-4:]) and ("liala" != tmp[-5:]):
@@ -9,8 +12,7 @@ def check(s, posT):
             return False
     return True
 
-s = [i for i in input().split()]
-
+#s = [i for i in input().split()]
 posN = 0
 for i in s:
     if ("etr" in i) or ("etra" in i):
