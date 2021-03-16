@@ -1,18 +1,20 @@
 from sys import stdin
+from sys import stdout
 
 s = set()
 while True:
-    x = [i for i in stdin.readline().split()]
-    a=x[0]
-    if a == '0':
+    x = [int(i) for i in stdin.readline().split()]
+    if (len(x) == 0):
+        continue
+    if x[0] == 0:
         break
-    elif a == '1':
-        b=x[1]
-        s.add(b)
-    elif a == '2':
-        print(int(x[1] in s))
+    elif x[0] == 1:
+        s.add(x[1])
+    elif x[0] == 2:
+        tmp = int(x[1] in s)
+        stdout.write(str(tmp) + '\n')
     else:
-        if x[1] in s and len(x)==2: 
-            s.remove(x[1])
+        if x[1] in s: 
+            s.discard(x[1])
         else:
             continue
