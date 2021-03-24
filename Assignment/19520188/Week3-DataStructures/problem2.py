@@ -1,5 +1,5 @@
 from sys import stdin
-
+from collections import deque
 class Node:
     def __init__(self, val, left = None, right = None):
         self.val = val
@@ -22,6 +22,20 @@ class bst:
                 root.left = self.insert(root.left, val)
         return root
 
+    def BFS(self, root):
+        q = deque()
+        q.append(root)
+
+        while(len(q) != 0):
+            tmp = q.popleft()
+            if (tmp.left != None):
+                q.append(tmp.left)
+            if (tmp.right != None):
+                q.append(tmp.right)
+            print(tmp.val, end = " ")
+        print()
+
+        
 
 #Driver code
 tree = bst()
