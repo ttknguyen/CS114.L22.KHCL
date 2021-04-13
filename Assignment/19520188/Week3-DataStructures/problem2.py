@@ -42,7 +42,7 @@ tree = bst()
 while True:
     try:
         a = int(stdin.readline())
-        if (a != 0): tree.insert(tree.root, a)
+        if (a != 0): tree.insert(tree.root, a)  
         else: break
     except:
         continue    
