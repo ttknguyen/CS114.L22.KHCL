@@ -51,7 +51,7 @@ def moveSnake(board, snake):
         return None
     if (newHeadY not in range(len(board[0]))):
         return None
-    if ((newHeadX,newHeadY) in snake):
+    if ((newHeadX,newHeadY) in snake[:-1]):
         return None
     
     newSnake = [(newHeadX,newHeadY)]
@@ -71,11 +71,16 @@ def control(board, snake, listStep):
                 for i in snake:
                     board[i[0]][i[1]] = 'X'
                 return board
-            
-            for a, b in zip(snake, tmp):
-                board[b[0]][b[1]] = board[a[0]][a[1]]
-            board[snake[-1][0]][snake[-1][1]] = '.'
-            snake = tmp
+
+            if (tmp[0] == snake[-1]) and (len(tmp) == 2):
+                board[tmp[0][0]][tmp[0][1]] = board[snake[0][0]][snake[0][1]]
+                board[tmp[1][0]][tmp[1][1]] = '*'
+                snake = tmp
+            else:
+                for a, b in zip(snake, tmp):
+                    board[b[0]][b[1]] = board[a[0]][a[1]]
+                board[snake[-1][0]][snake[-1][1]] = '.'
+                snake = tmp
 
     return board
 
