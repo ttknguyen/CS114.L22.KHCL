@@ -27,6 +27,6 @@
 	* Bài toán: Dự đoán tình trạng sức khoẻ thông qua dữ liệu nhịp tim trong 1 tháng
 	* Mô tả:
 		* Input: Số nhịp đập trên 1 phút - bpm (kiểu số nguyên)
-		* Out put: Tình trạng cơ thể (kiểu chuỗi kí tự)
+		* Output: Tình trạng cơ thể (kiểu chuỗi kí tự)
 	* Thu thập dữ liệu: Thu thập chỉ số nhịp tim thông qua chức năng đo nhịp tim có sẵn trên các loại đồng hồ thông minh hoặc vòng đeo tay thông minh
 	* Xử lý dữ liệu: Tạo 1 file CSV với 2 cột là chỉ số nhịp tim và thứ tự ngày trong tháng (từ ngày 1 đến ngày 30)
