@@ -10,12 +10,12 @@
 ### Trả lời:
 
 1.  Ví dụ 1: 
-	* Bài toán:
-	* Mô tả:
-		* Input:
-		* Out put:
-	* Thu thập dữ liệu:
-	* Xử lý dữ liệu:
+	* Bài toán: Mối quan hệ giữa tài chính (thu nhập) và hạnh phúc.
+	* Mô tả: Hiện nay, hầu hết trong mọi lĩnh vực đời sống của con người đều cần phải sử dụng tiền. Nó không chỉ đáp ứng các nhu cầu về cơ sở vật chất mà còn về tinh thần của con người.
+		* Input: Thu nhập bình quân của một người và yêu cầu họ xếp hạng mức độ hạnh phúc của họ trên thang điểm từ 1-10
+		* Output: Mối quan hệ giữa tài chính và hạnh phúc
+	* Thu thập dữ liệu: Đi khảo sát những người khác nhau (độ tuổi, giới tính, mức lương,…) để thu thập được số liệu một cách đa dạng hơn.
+	* Xử lý dữ liệu: Sau khi thu thập dữ liệu, chọn lọc lại những dữ liệu phù hợp, bỏ đi những bộ sai hoặc thiếu thông tin. Sau đó chuyển các dữ liệu thu thập được vào các bảng tính để có thể đưa vào mô hình
 2. Ví dụ 2: 
 	* Bài toán: Dự đoán xu hướng xem loại video của người dùng
 	* Mô tả: Hiện nay nhu cầu giải trí của con người trên mạng xã hội ngày càng cao. Đặc biệt, từ khi xuất hiện các nển tảng mạng xã hội về video như Tiktok, Youtube, ... Một trong những thành công của Tiktok chính là họ sử dụng những thuật toán về máy học để có thể hiểu được người dùng đang muốn xem những thể loại video nào mà từ đó đề xuất những video phù hợp cho họ.
