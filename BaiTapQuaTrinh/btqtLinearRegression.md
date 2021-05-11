@@ -24,9 +24,9 @@
 	* Thu thập dữ liệu: Thu thập các số liệu, hành vi của người dùng, những video được người dùng tương tác tốt.
 	* Xử lý dữ liệu: ở mỗi video lọc ra những thông tin cần sử dụng về caption, hashtag, chủ đề, thời lượng…
 3. Ví dụ 3: 
-	* Bài toán:
+	* Bài toán: Dự đoán tình trạng sức khoẻ thông qua dữ liệu nhịp tim trong 1 tháng
 	* Mô tả:
-		* Input:
-		* Out put:
-	* Thu thập dữ liệu:
-	* Xử lý dữ liệu:
+		* Input: Số nhịp đập trên 1 phút - bpm (kiểu số nguyên)
+		* Output: Tình trạng cơ thể (kiểu chuỗi kí tự)
+	* Thu thập dữ liệu: Thu thập chỉ số nhịp tim thông qua chức năng đo nhịp tim có sẵn trên các loại đồng hồ thông minh hoặc vòng đeo tay thông minh
+	* Xử lý dữ liệu: Tạo 1 file CSV với 2 cột là chỉ số nhịp tim và thứ tự ngày trong tháng (từ ngày 1 đến ngày 30)
