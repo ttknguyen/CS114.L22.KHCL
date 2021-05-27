@@ -11,5 +11,5 @@
 
 ## Nội dung Repository:
 * Các thông tin cần thiết của môn học
-* Source các bài tập giảng viên đã giao
-* Source của đồ án cuối kỳ
+* Source code các bài tập giảng viên đã giao
+* Source code của đồ án cuối kỳ
