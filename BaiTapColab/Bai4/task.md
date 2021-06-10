@@ -1,2 +1,2 @@
-# hanh Nhu: The Guardian
-# Nhat Quang: Babylon bee
+Khanh Nhu: The Guardian
+Nhat Quang: Babylon bee
