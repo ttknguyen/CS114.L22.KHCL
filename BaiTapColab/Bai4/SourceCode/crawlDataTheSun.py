@@ -22,7 +22,7 @@ def crawlDataTheSun():
   dataTS = []
   count = 0
 
-  print("___ CRAWL DATA FROM BABYLON BEE ___")
+  print("___ CRAWL DATA FROM THE SUN ___")
   for page in tqdm(range(1, 1500)):
     soupSite = sendRequestTS(page).find_all("div", class_="teaser__copy-container")
     count += getDataTS(soupSite, dataTS)
