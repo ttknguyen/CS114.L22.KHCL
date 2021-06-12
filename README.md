@@ -21,6 +21,7 @@
 * **Mã lớp:** CS114.L22.KHCL
 * **Năm học:** HK2 (2020 - 2021)
 * **Giảng viên:**
+
 | STT | Họ tên | Email | 
 | :---: | --- | --- |
 | 1 | PGS.TS. Lê Đình Duy | *duyld@uit.edu.vn* |
