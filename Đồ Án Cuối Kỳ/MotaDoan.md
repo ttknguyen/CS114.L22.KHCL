@@ -12,8 +12,9 @@
 
 - Nhóm thực hiện:
 	* Thái Trần Khánh Nguyên - 19520188
+	*  Nguyễn Khánh Như - 19520209
 	* Đoàn Nguyễn Nhật Quang - 19520235
-	* Nguyễn Khánh Như - 19520209
+	
 - Giáo viên hướng dẫn:
 	* PGS.TS. Lê Đình Duy
 	* ThS. Phạm Nguyễn Trường An
