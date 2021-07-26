@@ -31,7 +31,6 @@
 | STT | Họ tên | MSSV | Vai trò | Email | Github |
 | :---: | --- | --- | --- | --- | --- |
 | 1 | Thái Trần Khánh Nguyên | 19520188 | Nhóm trưởng | *19520188@gm.uit.edu.vn* | [ttknguyen](https://github.com/ttknguyen) | 
-| 2 | Nguyễn Phạm Vĩnh Nguyên | 19520186 | Thành viên | *19520186@gm.uit.edu.vn* | [nivla0607](https://github.com/nivla0607) |
 | 3 | Nguyễn Khánh Như | 19520209 | Thành viên | *19520209@gm.uit.edu.vn* | [nkn-nhu](https://github.com/nkn-nhu) |
 | 4 | Đoàn Nguyễn Nhật Quang | 19520235 | Thành viên | *19520235@gm.uit.edu.vn* | [JD981](https://github.com/JD981) |
 
